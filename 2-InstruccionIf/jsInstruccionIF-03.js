@@ -1,6 +1,14 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	edad = txtIdEdad.value;
+	if (edad >= 18){
+		alert("Eres mayor de edad");
+	}
+		else {
+			(edad <= 18)
+			alert ('Eres menor de edad')
+		}
+}
 
-}//FIN DE LA FUNCIÓN
+// porque al poner un numero de 1 digito o 3 digitos devuelve erroneo.

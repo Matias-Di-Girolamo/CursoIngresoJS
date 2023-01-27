@@ -1,7 +1,8 @@
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
-
-}//FIN DE LA FUNCIÓN
+	var edad;
+	edad = txtIdEdad.value;
+	if (edad >= '18'){
+		alert("Sos grandulote ya");
+	}
+}
